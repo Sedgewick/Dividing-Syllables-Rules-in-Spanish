@@ -15,15 +15,23 @@
 	- 辅音不可以单独构成音节；
 	- 当一个辅音位于两个元音之间，与其后的元音构成音节(ma-**p**a)；
 	
-2. 分音节规则 2 ：
+2. 分音节规则 2 （多个辅音的情况）：
 	- 除辅音连缀外，两个相邻的辅音分属前后两个音节(u**s-t**ed)；
 	- 辅音连缀与其后的元音构成一个音节(di-**pl**o-ma)；
 	- 相邻的三个辅音中，若出现辅音连缀，则辅音连缀与后面的元音构成一个音节，另一个辅音属于前一个音节；若无辅音连缀，通常情况下，最后一个辅音与其后的元音构成一个音节，前两个辅音属于前一音节(i**ns-t**i-tu-to)；
 
-3. 分音节规则 3 ：
+3. 分音节规则 3 （多个元音的情况）：
 	- 二重元音/三重元音与其前的辅音构成一个音节(n**ai**-pe)；
 	- 带重音符号的弱元音与强元音组合时，不构成二重元音，分属不同音节(d**í-a**)；
 
 这段 Ruby 脚本即根据以上规则，以正则表达式完成。这段脚本目前并没有考虑「重音符号」和「分音符号」对划分音节的影响。
 
 P.S. 这个项目实在很适合来「学习正则表达式」。
+
+
+----
+
+## 参考文档
+
+- [Dividing Syllables Rules in Spanish](https://quizlet.com/12460213/chapter-1-part-4-dividing-syllables-rules-in-spanish-pgs-16-18-flash-cards/)
+- [Syllables : how to divide a word in Spanish (by Lazarus)](http://www.spanishdict.com/answers/100865/syllables-how-to-divide-a-word-in-spanish-by-lazarus#.WLZXUhJ96nE)
